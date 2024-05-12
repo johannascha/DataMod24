@@ -1,0 +1,11 @@
+from struct import pack, unpack
+
+def shapefile_header(path):
+    x = path
+    unpack("<fi", x)
+    
+
+
+
+
+# def las_header(path):
