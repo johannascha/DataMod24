@@ -4,7 +4,7 @@
 from math import sqrt
 
 class Point:                                    #Klasse Point inplementieren 
-    def __init__(self, x, y):
+    def __init__(self, x, y):                    #__init__ ist der Konstruktor
         self.x = x
         self.y = y
     
